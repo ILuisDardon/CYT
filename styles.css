@@ -1,0 +1,96 @@
+#reloj { 
+    background-color: rgb(44, 44, 44);
+    color: rgb(10, 196, 10);
+    width: 150px; 
+    height: 40px; 
+    padding: 5px 5px; 
+    border: 3px solid black; 
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 1.5em dotum, "reloj", arial; text-align: center;
+    font-size: 30px;
+    margin: 1em 3em 1em 1em;
+ }
+
+.body{
+    background-color: rgb(0, 0, 29);
+}
+
+ @font-face {
+    font-family: 'reloj';
+    src: url('reloj.TTF') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+ }
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(11, 1fr);
+    font-family: monospace;
+    font-size: 175%;
+    gap: 30px;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+}
+.odd > a > .item{
+    background-color: rgb(9, 67, 94);
+    color: rgb(255, 208, 154);
+}
+.odd > .item{
+    background-color: rgb(9, 67, 94);
+    color: rgb(255, 208, 154)
+}
+
+.even > a > .item{
+    background-color: rgb(2, 25, 36);
+    color: rgb(255, 208, 154);
+}
+.even > .item{
+    background-color: rgb(2, 25, 36);
+    color: rgb(255, 208, 154);
+}
+.item{
+    height: 150%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fm{
+    grid-column: 1/-1;
+    text-align: center;
+    height: 150%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 225, 89);
+    color: rgb(2, 25, 36);
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.receso{
+    background-color: rgb(255, 225, 89);
+    color: rgb(2, 25, 36);
+    grid-column: 1/-1;
+    text-align: center;
+    height: 150%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
