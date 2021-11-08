@@ -86,8 +86,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
+.diosito{
+    background-color: rgb(2, 25, 36);
+    color:rgb(255, 225, 89);
+    font-family: monospace;
+    font-size: 125%;
+}
+
+.mio{
+    background-color: rgb(255, 225, 89);
+    color: rgb(2, 25, 36);
+    font-family: monospace;
+    font-size: 100%;
+}
+
 
 a{
     text-decoration: none;
